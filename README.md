@@ -15,29 +15,29 @@ This repository contains a collection of **Blockchain Lab Assignments** covering
 
 Each assignment demonstrates practical implementation using modern blockchain tools and technologies.
 
----
+
 
 ## 📁 Assignment Descriptions
 
 ### 🔹 Assignment 1: Smart Contract Development  
 Developed a basic smart contract using Solidity to **store and retrieve a numeric value**, demonstrating core concepts like state variables and functions.  
 
----
+
 
 ### 🔹 Assignment 2: Polygon Deployment  
 Deployed the smart contract on the Polygon Amoy Testnet, highlighting benefits such as **low transaction fees and faster processing** compared to Ethereum.  
 
----
+
 
 ### 🔹 Assignment 3: Web Interface + MetaMask Integration  
 Built a simple decentralized web application (DApp) using HTML, CSS, and JavaScript that interacts with the blockchain via MetaMask and Ethers.js.  
 
----
+
 
 ### 🔹 Assignment 4: IPFS Integration  
 Implemented decentralized file storage using IPFS via Pinata, allowing users to upload and retrieve files using a unique Content Identifier (CID).  
 
----
+
 
 ### 🔹 Assignment 5: DAO Smart Contract  
 Created a basic Decentralized Autonomous Organization (DAO) where users can create proposals, vote on them, and execute decisions based on voting results.  
