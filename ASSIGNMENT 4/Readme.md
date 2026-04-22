@@ -13,10 +13,12 @@ Instead of storing files on a single server, the data is distributed across mult
 🌐 IPFS Services Used
 🔹 Pinata (IPFS pinning service)
 🔹 IPFS Gateway for file retrieval
+
 🛠️ Libraries Used
 📌 axios → Used for making HTTP requests to Pinata API
 📌 form-data → Helps in handling multipart file uploads
 📌 fs (File System) → Reads files from the local system
+
 📂 Project Structure
 assignment-4/
 │── upload.js
