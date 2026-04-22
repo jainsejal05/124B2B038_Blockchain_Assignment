@@ -15,8 +15,11 @@ Pinata (IPFS pinning service)
 IPFS Gateway for file retrieval
 
 🛠️ Libraries Used
+
 axios → Used for making HTTP requests to Pinata API
+
 form-data → Helps in handling multipart file uploads
+
 fs (File System) → Reads files from the local system
 
 📂 Project Structure
@@ -29,10 +32,15 @@ assignment-4/
 │── package.json
 
 📤 How Files Are Stored
+
 The file is first read using the Node.js fs module
+
 It is then sent to the Pinata API using axios
+
 Pinata uploads (pins) the file to the IPFS network
+
 A unique CID (Content Identifier) is generated
+
 This CID acts as a permanent reference to access the file
 
 📥 How Files Are Retrieved
