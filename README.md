@@ -57,9 +57,9 @@ Created a basic Decentralized Autonomous Organization (DAO) where users can crea
 
 ---
 
-## 🚀 How to Run Each Assignment
+# 🚀 How to Run Each Assignment
 
-
+---
 
 ### ▶️ Assignment 1 & 2 (Smart Contracts)
 
