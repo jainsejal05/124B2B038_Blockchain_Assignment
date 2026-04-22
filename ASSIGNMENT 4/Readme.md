@@ -1,13 +1,11 @@
 🚀 Assignment 4: IPFS Integration
-🎯 Objective
 
+🎯 Objective
 The objective of this assignment is to implement decentralized file storage using IPFS by uploading and retrieving files through a Node.js-based application.
 This helps in understanding how distributed storage works compared to traditional centralized systems.
 
 📖 Description
-
 This project demonstrates how files can be stored on the IPFS network using Pinata and later accessed using a unique Content Identifier (CID).
-
 Instead of storing files on a single server, the data is distributed across multiple nodes, making it more secure, scalable, and reliable.
 
 🌐 IPFS Services Used
