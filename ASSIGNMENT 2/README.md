@@ -33,20 +33,24 @@ Go to the Solidity Compiler tab
 Select compiler version 0.8.x
 Click on Compile contract.sol
 Ensure there are no compilation errors
+
 🔹 Step 3: Configure MetaMask
 Install and open MetaMask
 Add the Polygon Amoy network using the configuration above
 Switch your active network to Polygon Amoy
 Make sure your wallet has test POL tokens from a faucet
+
 🔹 Step 4: Connect Wallet to Remix
 Open the Deploy & Run Transactions tab in Remix
 Select Injected Provider - MetaMask as environment
 Approve the connection request in MetaMask
+
 🔹 Step 5: Deploy the Contract
 Click on the Deploy button
 Confirm the transaction in MetaMask
 Wait for the transaction to be mined successfully
 The deployed contract will appear under “Deployed Contracts”
+
 🔹 Step 6: Verify on Blockchain Explorer
 Copy the deployed contract address
 
@@ -57,7 +61,3 @@ Paste the contract address to view transaction details and status
 📍 Deployed Contract Address
 0xed626229dF11B55eb6f1702a003261D7c46f19A9
 
-📝 Additional Notes
-Deployment requires gas fees paid in test POL tokens
-Transactions may take a few seconds depending on network congestion
-Smart contracts once deployed are immutable unless designed otherwise
