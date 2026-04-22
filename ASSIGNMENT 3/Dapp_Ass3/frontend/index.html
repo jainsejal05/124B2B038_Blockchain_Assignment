@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethereum DApp — UserDataStore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated grid background -->
+  <div class="bg-grid"></div>
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+
+  <div class="app-shell">
+
+    <!-- ── Header ─────────────────────────────────────────────── -->
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-hex">⬡</span>
+        <span class="logo-text">ChainStore</span>
+      </div>
+
+      <div class="wallet-area">
+        <div class="network-badge" id="networkBadge">Not Connected</div>
+        <button class="btn btn-connect" id="connectBtn">Connect Wallet</button>
+        <div class="wallet-address hidden" id="walletAddress"></div>
+      </div>
+    </header>
+
+    <!-- ── Hero label ─────────────────────────────────────────── -->
+    <section class="hero">
+      <p class="hero-sub">Ethereum · Sepolia Testnet</p>
+      <h1 class="hero-title">Store your data<br/><em>on-chain</em></h1>
+      <p class="hero-desc">
+        Connect MetaMask, write a name &amp; message to a Solidity smart contract,
+        then read it back — all through a Node.js backend.
+      </p>
+    </section>
+
+    <!-- ── Main cards ──────────────────────────────────────────── -->
+    <main class="cards-grid">
+
+      <!-- Write card -->
+      <div class="card card-write">
+        <div class="card-tag">01 / WRITE</div>
+        <h2 class="card-title">Store Data</h2>
+        <p class="card-desc">Submit name &amp; message — the backend signs and broadcasts the transaction.</p>
+
+        <div class="form-group">
+          <label for="inputName">Your Name</label>
+          <input type="text" id="inputName" placeholder="e.g. Alice" autocomplete="off" />
+        </div>
+
+        <div class="form-group">
+          <label for="inputMessage">Your Message</label>
+          <textarea id="inputMessage" rows="3" placeholder="e.g. Hello, blockchain!"></textarea>
+        </div>
+
+        <button class="btn btn-primary" id="storeBtn" disabled>
+          <span class="btn-icon">⬆</span> Store Data
+        </button>
+
+        <!-- TX receipt -->
+        <div class="tx-receipt hidden" id="txReceipt">
+          <div class="receipt-row">
+            <span class="receipt-label">TX Hash</span>
+            <a class="receipt-value" id="txHashLink" target="_blank" rel="noopener">—</a>
+          </div>
+          <div class="receipt-row">
+            <span class="receipt-label">Block</span>
+            <span class="receipt-value" id="txBlock">—</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Read card -->
+      <div class="card card-read">
+        <div class="card-tag">02 / READ</div>
+        <h2 class="card-title">Retrieve Data</h2>
+        <p class="card-desc">Fetch the latest name &amp; message stored in the smart contract.</p>
+
+        <button class="btn btn-secondary" id="getBtn">
+          <span class="btn-icon">⬇</span> Get Data
+        </button>
+
+        <div class="result-box" id="resultBox">
+          <div class="result-empty">No data fetched yet.<br/>Click "Get Data" above.</div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- ── Status bar ──────────────────────────────────────────── -->
+    <div class="status-bar" id="statusBar">
+      <span class="status-dot idle" id="statusDot"></span>
+      <span id="statusMsg">Idle — connect your wallet to begin.</span>
+    </div>
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <span>ChainStore DApp</span>
+      <span class="separator">·</span>
+      <span>Solidity 0.8 · Ethers.js v6 · Express</span>
+    </footer>
+
+  </div><!-- /app-shell -->
+
+  <script src="script.js"></script>
+</body>
+</html>
