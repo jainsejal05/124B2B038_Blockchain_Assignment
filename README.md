@@ -1,6 +1,5 @@
 # 🚀 Blockchain Lab Assignments
 
----
 
 ## 👤 Student Details
 
