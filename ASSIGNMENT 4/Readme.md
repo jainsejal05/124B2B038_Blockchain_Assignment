@@ -41,12 +41,8 @@ How Files Are Retrieved
 
 https://gateway.pinata.cloud/ipfs/Qma1w3UWh2PJ7wtPGcuxADcEfWGQsngvH8d53hB55u8Ms3
 
-CID
+CID: A Content Identifier (CID) is a unique hash generated for a file stored on IPFS.It is based on the file’s content, so even a small change in the file creates a different CID. CIDs allow files to be retrieved from decentralized networks without relying on a specific location or server.
 
 CID: Qma1w3UWh2PJ7wtPGcuxADcEfWGQsngvH8d53hB55u8Ms3
 
-Additional Notes
-The CID is generated based on the file content, so even a small change will produce a different CID
-Files stored on IPFS are immutable (cannot be modified after upload)
-Pinata ensures availability of files by keeping them pinned on the network
-This approach eliminates dependency on centralized storage systems
+
