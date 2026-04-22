@@ -59,7 +59,7 @@ Created a basic Decentralized Autonomous Organization (DAO) where users can crea
 
 ## 🚀 How to Run Each Assignment
 
----
+
 
 ### ▶️ Assignment 1 & 2 (Smart Contracts)
 
@@ -76,7 +76,7 @@ Created a basic Decentralized Autonomous Organization (DAO) where users can crea
 
 **Result:** Smart contract successfully deployed and executed on the selected blockchain network.  
 
----
+
 
 ### ▶️ Assignment 3 (Web DApp)
 
