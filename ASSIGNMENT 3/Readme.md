@@ -62,9 +62,3 @@ Connecting wallet using MetaMask
 Sending transactions to store user data
 Retrieving and displaying stored data on the UI
 
-📝 Additional Notes
-The application uses a Node.js backend to handle blockchain communication
-All transactions require gas fees
-Data stored on blockchain is immutable
-Ensure MetaMask is unlocked before performing actions
-Run the project using localhost instead of opening files directly
